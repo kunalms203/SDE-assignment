@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    width: 100%;
+    min-height: 100% !important;
+    border-bottom: 1px solid black;
+    .sidebar{
+        width: 20%;
+        min-height: 80vh;
+        border-right: solid 1px black;
+        .form-label{
+            font-weight: 600;
+        }
+        h2{
+            font-weight: 600;
+            font-family: "Oswald", serif !important;
+            color: rgb(25, 153, 192);
+            text-align: center;
+        }
+    }
+    .supplierlist{
+        margin: 0.5rem;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 0.25rem;
+        .suppliers{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            div{
+                color: rgb(25, 153, 192);
+                padding: 0.4rem;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                font-size: 1.2rem;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                &:hover{
+                    background-color: #f5f5f5;
+                }
+            }
+        }
+    }
+}
